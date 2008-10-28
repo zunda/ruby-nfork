@@ -106,7 +106,6 @@ module Process
 end
 
 def fork(*args, &block)
-	Process.block
 	Process.fork(*args, &block)
 end
 
